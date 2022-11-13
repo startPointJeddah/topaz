@@ -44,7 +44,7 @@ session_start();
                                     <div class="row">
                                         <div class="col-md-4">
                                             <h3 class="box-title" style="margin-bottom: 15px">رفع من اكسيل </h3>
-                                            <a href="Upload/Templat/العملاء.xlsx" download="العملاء.xlsx"><i class="fa fa-file-excel-o"></i> Template</a>
+                                            <a href="Upload/Templat/customers.xlsx" download="العملاء.xlsx"><i class="fa fa-file-excel-o"></i> Template</a>
 
                                         </div>
                                     </div>
