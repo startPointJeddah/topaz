@@ -90,7 +90,7 @@ if(isset($_GET['B'])  && $_GET['B'] == "1" ){
 <div class="flowers w-100">
     <img src="img/flowers.png" class="w-100 mt-5">
 </div>
-<div><i id="backButton"  class="fas fa-arrow-circle-left position-relative" type="button" title="العودة الي الخلف" style="margin-left: 2%;font-size: 40px;color: #FFFFEA;"  onclick="window.history.back();"></i></div>
+<div><i id="backButton"  class="fas fa-arrow-circle-left position-relative" type="button" title="العودة الي الخلف" style="margin-left: 2%;font-size: 40px;color: #FFFFEA;"  onclick="location.href = document.referrer; return false;"></i></div>
 <!-- Start center page -->
 
 
