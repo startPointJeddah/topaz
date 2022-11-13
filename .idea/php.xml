@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/bootstrap-4.2.1/css" />
+      <path value="$PROJECT_DIR$/vendor/bootstrap-4.2.1/js" />
+      <path value="$PROJECT_DIR$/vendor/fontawesome-5.6.1/webfonts" />
+      <path value="$PROJECT_DIR$/vendor/fontawesome-5.6.1/css" />
+      <path value="$PROJECT_DIR$/vendor/owl-carousel-2.3.4/assets" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+</project>

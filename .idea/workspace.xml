@@ -3,59 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="07821d01-e28f-416b-b9fc-0140a2f29af9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/15118906_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/15118909_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/15119729_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/15918906_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/15919284_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/15919374_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/15919383_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/15919428_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/15919474_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/15919553_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/15919567_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/15919662_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/15919729_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/15919730_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/15919739_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/15919741_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/15919895_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/15919945_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/15919950_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/19064_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/19068_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/19268_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/19403_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/19428_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/19641_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/19662_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/19729_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/19730_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/19739_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/19895_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/19945_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/19950_en_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/clients.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/clients.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/connect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/dist/js/commission.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/dist/js/commission.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/dist/js/project_build.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/dist/js/project_build.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/file/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/file/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/groups.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/groups.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/html_components/html_groups_functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/html_components/html_groups_functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/upload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/uploadProjectImages.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/uploadProjectImages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/album.php" beforeDir="false" afterPath="$PROJECT_DIR$/album.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/connect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/invalidLink.php" beforeDir="false" afterPath="$PROJECT_DIR$/invalidLink.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -80,17 +34,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/topaz&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -99,7 +54,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668247455774</updated>
-      <workItem from="1668247522792" duration="14930000" />
+      <workItem from="1668247522792" duration="15043000" />
+      <workItem from="1668339445848" duration="25000" />
     </task>
     <servers />
   </component>
