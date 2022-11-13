@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07821d01-e28f-416b-b9fc-0140a2f29af9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Upload/15118906_en_1.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Upload/15118909_en_1.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Upload/15119729_en_1.jpg" beforeDir="false" />
@@ -97,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668247455774</updated>
-      <workItem from="1668247522792" duration="10773000" />
+      <workItem from="1668247522792" duration="11533000" />
     </task>
     <servers />
   </component>
