@@ -2,9 +2,15 @@
 error_reporting(0);
 include('connect.php');
 
-$token = explode("/" , $_SERVER["REQUEST_URI"]);
-$token = filter_var($token[count($token) - 1] , FILTER_SANITIZE_STRING);
-
+if(! isset($_GET['c']) || ! isset($_GET['p']) || ! isset($_GET['b'])){
+    header('location: invalidLink.php');
+    exit;
+}
+if( isset($_GET['c']) || $_GET['c'] ){
+    $TOKEN = filter_var($_GET['c'], FILTER_SANITIZE_STRING);
+    $projectNumber = filter_var($_GET['p'] , FILTER_SANITIZE_STRING);
+    $buildingNumber = filter_var($_GET['b'] , FILTER_SANITIZE_STRING);
+}
 $whatsAppAvaliabilty = 0;
 $query = "select whatsapp , whatsappAvaliability from users where whatsappAvaliability = '1'";
 $resultQuery=$conn->query($query);
@@ -28,7 +34,6 @@ while($row = $resultQuery->fetch_assoc()) {
 }
 
 $count =0;
-echo $projectName."===".$buildingNumber;
 $sql="select * from project_building WHERE project_number = '$projectName' 
                   AND building_number ='$buildingName' ";
 $result=$conn->query($sql);
