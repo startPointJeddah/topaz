@@ -22,7 +22,7 @@ if($resultQuery->num_rows > 0){
 }
 
 
-$query = "select name ,stock , flat, floor ,project , bulding from customers where token = '$token'";
+$query = "select name ,stock , flat, floor ,project , bulding from customers where token = '$TOKEN'";
 $resultQuery=$conn->query($query);
 while($row = $resultQuery->fetch_assoc()) {
     $projectName = $row["project"];
