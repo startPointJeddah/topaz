@@ -107,7 +107,7 @@ while ($row = $result->fetch_assoc()) {
             if($whatsAppAvaliabilty){
 
              echo '<span class="navbar-text">
- <a href="https://api.whatsapp.com/send?phone=00966'.$whatsAppNumber.'&amp;text=السلام عليكم&amp;app_absent=0" style="text-decoration-line: none">
+ <a href="https://api.whatsapp.com/send?phone=+966'.$whatsAppNumber.'&amp;text=السلام عليكم&amp;app_absent=0" style="text-decoration-line: none">
                         <div class="d-flex text-light">
                                <p class="mx-2"> '.$whatsAppNumber.'</p>
                                <img src="../img/whatsapp-icon.svg" style="height: 20px;">
