@@ -10,6 +10,8 @@ $defaultCommission = 0;
  <th style='text-align: right'>الهاتف</th>
  <th style='text-align: right'>البريد الألكتروني</th>
  <th style='text-align: right'>المخطط</th>
+ <th style='text-align: right'>رقم الهوية</th>
+ <th style='text-align: right'>عنوان العميل</th>
  <th style='text-align: right'>رقم المشروع</th>
  <th style='text-align: right'>رقم العماره</th>
  <th style='text-align: right'>المبني</th>
@@ -43,6 +45,8 @@ if($commission->num_rows > 0){
             $excelData .= "<td style='text-align: right;line-height: 35px'>".$row["phone"]."</td>";
             $excelData .= "<td style='text-align: right;line-height: 35px'>".$row["email"]."</td>";
             $excelData .= "<td style='text-align: right;line-height: 35px'>".$row["adress"]."</td>";
+            $excelData .= "<td style='text-align: right;line-height: 35px'>".$row["customer_identity"]."</td>";
+            $excelData .= "<td style='text-align: right;line-height: 35px'>".$row["customer_address"]."</td>";
             $excelData .= "<td style='text-align: right;line-height: 35px'>".$row["project"]."</td>";
             $excelData .= "<td style='text-align: right;line-height: 35px'>".$row["bulding"]."</td>";
             $excelData .= "<td style='text-align: right;line-height: 35px'>".$row["stock"]."</td>";

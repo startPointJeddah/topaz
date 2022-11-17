@@ -11,10 +11,10 @@ class countdown
                 <div id="countdown" time-value="'.$deadline.'">
                     <div id="tiles"></div>
                     <div class="labels my-3">
-                        <li>يوم</li>
-                        <li>ساعة</li>
-                        <li>دقيقة</li>
-                        <li>ثانية</li>
+                        <li style="font-family:Tajawal;">يوم</li>
+                        <li style="font-family:Tajawal;">ساعة</li>
+                        <li style="font-family:Tajawal;">دقيقة</li>
+                        <li style="font-family:Tajawal;">ثانية</li>
                     </div>
                 </div>
             </div>
@@ -28,10 +28,10 @@ class countdown
                 <div id="countdown" time-value="'.$deadline.'">
                     <div id="tiles"></div>
                     <div class="labels my-3">
-                        <li>يوم</li>
-                        <li>ساعة</li>
-                        <li>دقيقة</li>
-                        <li>ثانية</li>
+                        <li style="font-family:Tajawal;">يوم</li>
+                        <li style="font-family:Tajawal;">ساعة</li>
+                        <li style="font-family:Tajawal;">دقيقة</li>
+                        <li style="font-family:Tajawal;">ثانية</li>
                     </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@ class countdown
         echo '
  <div class="timer-div text-center">
                 <div id="countdown" >
-                    <h1 class="text-center  my-5 broun">لم يتم تحديد موعد الأستلام بعد...</h1>
+                    <h1 class="text-center  my-5 broun" style="font-family:Tajawal;">لم يتم تحديد موعد الأستلام بعد...</h1>
                 </div>
             </div>
 ';
@@ -52,7 +52,7 @@ class countdown
         echo '
 <div class="timer-div text-center">
                 <div id="countdown" >
-                    <h1 class="text-center  my-5 broun">تم بحمد الله تسليم المبني ...</h1>
+                    <h1 class="text-center  my-5 broun" style="font-family:Tajawal;">تم بحمد الله تسليم المبني ...</h1>
                 </div>
             </div>
 ';

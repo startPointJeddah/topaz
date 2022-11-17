@@ -89,7 +89,7 @@ while ($row = $result->fetch_assoc()) {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap" rel="stylesheet">
-    <link rel="icon" href="../img/Logo.png" type="image/icon type">
+    <link rel="icon" href="img/logo_title.png" type="image/icon type">
     <link rel="stylesheet" href="../assets/css/style.css" />
 </head>
 <body>
@@ -178,7 +178,7 @@ while ($row = $result->fetch_assoc()) {
         <div class="d-flex mt-5 ">
             <div class="row w-100">
                 <div class="col-md-3">
-                    <h4 class="text-secondary text-center">عزيزي العميل المحترم</h4>
+                    <h4 class="text-secondary text-center">عزيزي العميل</h4>
                 </div>
                 <div class="col-md-9">
                     <input type="text" class="box-border w-100 p-2" value="<?php echo $name;?>">
