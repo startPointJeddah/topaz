@@ -11,10 +11,10 @@ class countdown
                 <div id="countdown" time-value="'.$deadline.'">
                     <div id="tiles"></div>
                     <div class="labels my-3">
-                        <li style="font-family:Tajawal;">يوم</li>
-                        <li style="font-family:Tajawal;">ساعة</li>
-                        <li style="font-family:Tajawal;">دقيقة</li>
-                        <li style="font-family:Tajawal;">ثانية</li>
+                        <li style="font-family:Tajawal;font-size: 16px;">يوم</li>
+                        <li style="font-family:Tajawal;font-size: 16px;">ساعة</li>
+                        <li style="font-family:Tajawal;font-size: 16px;">دقيقة</li>
+                        <li style="font-family:Tajawal;font-size: 16px;">ثانية</li>
                     </div>
                 </div>
             </div>
@@ -28,10 +28,10 @@ class countdown
                 <div id="countdown" time-value="'.$deadline.'">
                     <div id="tiles"></div>
                     <div class="labels my-3">
-                        <li style="font-family:Tajawal;">يوم</li>
-                        <li style="font-family:Tajawal;">ساعة</li>
-                        <li style="font-family:Tajawal;">دقيقة</li>
-                        <li style="font-family:Tajawal;">ثانية</li>
+                        <li style="font-family:Tajawal;font-size: 16px;">يوم</li>
+                        <li style="font-family:Tajawal;font-size: 16px;">ساعة</li>
+                        <li style="font-family:Tajawal;font-size: 16px;">دقيقة</li>
+                        <li style="font-family:Tajawal;font-size: 16px;">ثانية</li>
                     </div>
                 </div>
             </div>

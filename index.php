@@ -70,8 +70,8 @@ while ($row = $result->fetch_assoc()) {
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-
-    <title>client page altopaz</title>
+    <meta name="description" content="<?php echo $comments[0]; ?>"/>
+    <title>شركة التوباز العقارية</title>
 
     <!-- fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" />
@@ -89,7 +89,7 @@ while ($row = $result->fetch_assoc()) {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap" rel="stylesheet">
-    <link rel="icon" href="img/logo_title.png" type="image/icon type">
+    <link rel="icon" href="https://altopaz.floteksa.com/img/logo_title.png" type="image/icon type">
     <link rel="stylesheet" href="../assets/css/style.css" />
 </head>
 <body>
