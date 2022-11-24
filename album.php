@@ -29,7 +29,6 @@ if(isset($_GET['B'])  && $_GET['B'] == "1" ){
     $titleName = "التشطيبات الخارجية";
 }
 ?>
-?>
 <!DOCTYPE html>
 <html  dir="rtl">
 <head>
@@ -42,25 +41,25 @@ if(isset($_GET['B'])  && $_GET['B'] == "1" ){
     <!-- fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" />
     <!-- css -->
-    <link rel="stylesheet" href="vendor/bootstrap-4.2.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="vendor/owl-carousel-2.3.4/assets/owl.carousel.min.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="../../vendor/bootstrap-4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../vendor/owl-carousel-2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../../assets/css/style.css" />
     <!-- js -->
-    <script src="vendor/jquery-3.3.1/jquery.min.js"></script>
-    <script src="vendor/bootstrap-4.2.1/js/bootstrap.bundle.min.js"></script>
-    <script src="vendor/owl-carousel-2.3.4/owl.carousel.min.js"></script>
-    <script src="vendor/nouislider-12.1.0/nouislider.min.js"></script>
-    <script src="assets/js/number.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="../../vendor/jquery-3.3.1/jquery.min.js"></script>
+    <script src="../../vendor/bootstrap-4.2.1/js/bootstrap.bundle.min.js"></script>
+    <script src="../../vendor/owl-carousel-2.3.4/owl.carousel.min.js"></script>
+    <script src="../../vendor/nouislider-12.1.0/nouislider.min.js"></script>
+    <script src="../../assets/js/number.js"></script>
+    <script src="../../assets/js/main.js"></script>
     <!-- font - fontawesome -->
-    <link rel="stylesheet" href="vendor/fontawesome-5.6.1/css/all.min.css" />
+    <link rel="stylesheet" href="../../vendor/fontawesome-5.6.1/css/all.min.css" />
     <!-- font - stroyka -->
     <!-- font - stroyka -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="img/logo_title.png" type="image/icon type">
+    <link rel="icon" href="../../img/logo_title.png" type="image/icon type">
 </head>
 <body>
 
@@ -70,7 +69,7 @@ if(isset($_GET['B'])  && $_GET['B'] == "1" ){
     <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="img/Logo.png" style="height: 70px;">
+                <img src="../../img/Logo.png" style="height: 70px;">
             </a>
 
             <?php
@@ -95,7 +94,7 @@ if(isset($_GET['B'])  && $_GET['B'] == "1" ){
 <!-- start new div -->
 
 <div class="flowers w-100">
-    <img src="img/flowers.png" class="w-100 mt-5">
+    <img src="../../img/flowers.png" class="w-100 mt-5">
 </div>
 <div><i id="backButton"  class="fas fa-arrow-circle-left position-relative" type="button" title="العودة الي الخلف" style="margin-left: 2%;font-size: 40px;color: #FFFFEA;"  onclick="location.href = document.referrer; return false;"></i></div>
 <!-- Start center page -->
@@ -123,7 +122,9 @@ if(isset($_GET['B'])  && $_GET['B'] == "1" ){
 
 
                                     <div class="owl-stage-outer">
-                                        <div class="owl-stage" style="transform: translate3d(-1137px, 0px, 0px); transition: all 0s ease 0s; width: 3982px;">                                            <?php
+                                        <div class="owl-stage" style="transform: translate3d(-1137px, 0px, 0px); transition: all 0s ease 0s; width: 3982px;">
+                                            <?php
+
                                             $image_type = $_GET["B"];
                                             $sql="select * from project_building WHERE project_number = '$projectNumber' And 
                              building_number= '$buildingNumber'        ";
@@ -205,7 +206,7 @@ if(isset($_GET['B'])  && $_GET['B'] == "1" ){
                         <p class="broun pt-3 text-center">جميع الحقوق محفوظة لشركة التوباز العقارية</p>
                     </div>
                     <div class="col-md-4 text-left">
-                        <img src="img/logo2.png" style="height: 70px;">
+                        <img src="../../img/logo2.png" style="height: 70px;">
                     </div>
                 </div>
             </div>
