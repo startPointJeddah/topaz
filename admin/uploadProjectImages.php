@@ -13,8 +13,6 @@ function filterData(&$str){
 if(isset($_GET['project']) && isset($_GET['bulding']) ){
     $projectId = $_GET['project'];
     $buildingId = $_GET['bulding'];
-    echo $projectId."===".$buildingId."Mohamed";
-    die();
     $fileName = "customerDate_" . date('Y-m-d') . ".xls";
 
 // Column names
