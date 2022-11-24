@@ -147,7 +147,7 @@ $(document).ready(function() {
                         dataType: 'text',
                         success:function(data) {
                             if(data == "success"){
-                                            window.open('https://pro.floteksa.com/admin/uploadProjectImages.php?project='+project+'&bulding='+buliding,'_blank' );
+                                            window.open('https://altopaz.floteksa.com/admin/uploadProjectImages.php?project='+project+'&bulding='+buliding,'_blank' );
                             Swal.fire({
                                 position: 'top-end',
                                 icon: 'success',
@@ -163,7 +163,7 @@ $(document).ready(function() {
 
                     });
                             }
-                                 
+
                         }
 
                     });
