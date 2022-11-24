@@ -142,7 +142,7 @@ if(isset($_GET['B'])  && $_GET['B'] == "1" ){
                                             }else{
                                             while($row_imge = $result_imge->fetch_assoc()) {
                                             $img = $row_imge['img'];
-                                            $imgSource = 'Upload/'.$img;
+                                            $imgSource = '../../Upload/'.$img;
 
                                             ?>
                                              <?php
