@@ -29,7 +29,7 @@ if(isset($_GET['project']) && isset($_GET['bulding']) ){
 
         while($row = $result->fetch_assoc()){
             $excelData .="<tr>";
-            $link = "https://pro.floteksa.com/?c=".$row['token']."&p=".$projectId."&b=".$buildingId;
+            $link = "https://altopaz.floteksa.com/page/".$row['token'];
             $excelData .= "<td>".$row["name"]."</td>";
             $excelData .= "<td>".$row["phone"]."</td>";
             $excelData .= "<td>".$link."</td>";
@@ -108,7 +108,7 @@ if(isset($_GET['project']) && isset($_GET['bulding']) ){
 
     if($insertImagesFlag){
         $conn->query(substr($insertImages , 0 , -1));
-        
+
         $result = str_replace(".." , "" , $upload_location);
     }
 

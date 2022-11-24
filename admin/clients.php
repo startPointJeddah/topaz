@@ -150,7 +150,7 @@ while($row = $result_u->fetch_assoc()) {
                 <tr>
                     <th class=""><?php echo $counts ?></th>
                     <td>
-                        <a target ="_blanck" href="../?c=<?php echo $row['token']; ?>&p=<?php echo $row['project']?>&b=<?php echo $row['bulding']?>"><?php echo $row['name']; ?></a>
+                        <a target ="_blanck" href="../page/<?php echo $row['token']; ?>"><?php echo $row['name']; ?></a>
                     </td>
 
                     <td class="text-center">

@@ -1,9 +1,8 @@
 <?php
 error_reporting(0);
 include('connect.php');
-
-if( isset($_GET['c']) || $_GET['c'] ){
-    $TOKEN = filter_var($_GET['c'] , FILTER_SANITIZE_STRING);
+if( isset($_GET['token']) || $_GET['token'] ){
+    $TOKEN = filter_var($_GET['token'] , FILTER_SANITIZE_STRING);
     $ALBUM = filter_var($_GET['B'] , FILTER_SANITIZE_STRING);
 }
 $whatsAppAvaliabilty = 0;
@@ -15,6 +14,13 @@ if($resultQuery->num_rows > 0){
         $whatsAppNumber = $row["whatsapp"];
     }
 }
+$query = "select project , bulding from customers where token = '$TOKEN'";
+$resultQuery=$conn->query($query);
+while($row = $resultQuery->fetch_assoc()) {
+    $projectNumber = $row["project"];
+    $buildingNumber = $row["bulding"];
+}
+
 if(isset($_GET['B'])  && $_GET['B'] == "1" ){
     $titleName = "الإنشاءات";
 }elseif(isset($_GET['B'])  && $_GET['B'] == "2"){
@@ -22,6 +28,7 @@ if(isset($_GET['B'])  && $_GET['B'] == "1" ){
 }elseif(isset($_GET['B'])  && $_GET['B'] == "3"){
     $titleName = "التشطيبات الخارجية";
 }
+?>
 ?>
 <!DOCTYPE html>
 <html  dir="rtl">
@@ -72,8 +79,8 @@ if(isset($_GET['B'])  && $_GET['B'] == "1" ){
                 echo '<span class="navbar-text">
  <a href="https://api.whatsapp.com/send?phone=+966'.$whatsAppNumber.'&amp;text=السلام عليكم&amp;app_absent=0" style="text-decoration-line: none">
                         <div class="d-flex text-light">
-                               <p class="mx-2"> '.$whatsAppNumber.'</p>
-                               <img src="img/whatsapp-icon.svg" style="height: 20px;">
+                               <p class="mx-2"> '.$whatsAppNumber. '</p>
+                               <img src="../../img/whatsapp-icon.svg" style="height: 20px;">
                            
                         </div>
                         </a>
@@ -116,10 +123,7 @@ if(isset($_GET['B'])  && $_GET['B'] == "1" ){
 
 
                                     <div class="owl-stage-outer">
-                                        <div class="owl-stage" style="transform: translate3d(-1137px, 0px, 0px); transition: all 0s ease 0s; width: 3982px;">
-                                            <?php
-                                            $projectNumber = $_GET["p"];
-                                            $buildingNumber = $_GET["b"];
+                                        <div class="owl-stage" style="transform: translate3d(-1137px, 0px, 0px); transition: all 0s ease 0s; width: 3982px;">                                            <?php
                                             $image_type = $_GET["B"];
                                             $sql="select * from project_building WHERE project_number = '$projectNumber' And 
                              building_number= '$buildingNumber'        ";
