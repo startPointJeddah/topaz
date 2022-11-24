@@ -244,7 +244,7 @@ while ($row = $result->fetch_assoc()) {
                             <span class="progress-right">
                                         <span id="progressRightBar1" class="progress-bar"></span>
                                     </span>
-                            <div id="progressBar1" class="progress-value">25%</div>
+                            <div id="progressBar1" class="progress-value"><?php echo $step1; ?>%</div>
                         </div>
                     </div>
                 </div>
