@@ -154,7 +154,7 @@ while($row = $result_u->fetch_assoc()) {
                     </td>
 
                     <td class="text-center">
-                        <a target="_blank" href="https://api.whatsapp.com/send?phone=00966<?php echo $row['phone']; ?>&text=http://localhost/project/?c=<?php echo $row['token']; ?>&app_absent=0"> <?php echo $row['phone']; ?></a>
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=+966<?php echo $row['phone']; ?>&text=السلام عليكم عزيزي العميل /<?php echo $row['name']; ?>&app_absent=0"> <?php echo $row['phone']; ?></a>
                     </td>
                     <td class="text-center">
                         <?php echo $row['email']; ?>
